@@ -33,6 +33,8 @@ public class Main {
         int end = Integer.parseInt( args[1] );
         int count = Integer.parseInt( args[2] );
 
+        System.out.println( String.format("BEGIN: %s, END: %s, COUNT: %s", begin, end, count) );
+
         //2. Сгенерировать и вывести последовательность в одну строчку, разделяя элементы пробелом
 
         //3. Вывести в одну строчку минимальное, максимальное и средние значения последовательности
