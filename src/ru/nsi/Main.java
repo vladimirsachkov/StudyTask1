@@ -29,6 +29,9 @@ public class Main {
 
     public static void main(String[] args) {
         //1. Считать аргументы командной строки
+        int begin = Integer.parseInt( args[0] );
+        int end = Integer.parseInt( args[1] );
+        int count = Integer.parseInt( args[2] );
 
         //2. Сгенерировать и вывести последовательность в одну строчку, разделяя элементы пробелом
 
